@@ -1,0 +1,54 @@
+main {
+	width: 100%;
+	padding: 0px 25px;
+	max-width: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 2;
+}
+
+.container {
+	background-color: #fefefe;
+	padding: 20px;
+	border-radius: 12px;
+	border: 2px solid #333333bc;
+}
+
+.container #quote {
+	margin-bottom: 25px;
+	margin-top: 10px;
+	font-family: "Cormorant Garamond";
+	font-size: 1.55rem;
+	color: #222;
+	flex-wrap: wrap;
+}
+
+.container div {
+	display: flex;
+	justify-content: space-between;
+}
+
+#author {
+	font-size: 1.1rem;
+}
+
+div button {
+	font-size: 1.3rem;
+	background: none;
+	border: none;
+}
+
+div button:hover {
+	animation: rotate-once 300ms linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes rotate-once {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(180deg);
+	}
+}
