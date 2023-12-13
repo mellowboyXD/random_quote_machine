@@ -3,9 +3,11 @@ main {
 	padding: 0px 25px;
 	max-width: 800px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	flex: 2;
+	gap: 1em;
 }
 
 .container {
@@ -39,7 +41,7 @@ div button {
 	border: none;
 }
 
-div button:hover {
+.container div button:hover {
 	animation: rotate-once 300ms linear;
 	animation-fill-mode: forwards;
 }

@@ -39,6 +39,14 @@ footer {
 	}
 
 	footer p {
-		font-size: 1rem;
+		font-size: 1.1rem;
+	}
+
+	.category label {
+		font-size: 1.2rem;
+	}
+
+	.category {
+		grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
 	}
 }
