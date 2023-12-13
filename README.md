@@ -4,4 +4,4 @@ A minimalistic random quote generator using [API NINJA's](https://api-ninjas.com
 
 Implemented using React + Vite and regular CSS
 
-👉 [Live Demo!]()
+👉 [Live Demo!](https://quote-mellow.netlify.app)
